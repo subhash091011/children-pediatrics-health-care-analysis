@@ -1,0 +1,225 @@
+/* /src/styles/main.css */
+
+/* Add your main styles here */
+body {
+  font-family: 'Comic Neue', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; /* Add a z-index to ensure the footer stays on top */
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transition for zoom effect */
+  display: inline-block; /* Fix for transform affecting block-level elements */
+}
+
+/* Change background color, text color, and zoom on hover */
+nav ul li a:hover {
+  background-color: #555;
+  color: #ffd700;
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Box styling for the main content */
+.content-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+/* /src/styles/main.css */
+
+/* ... (existing styles) */
+
+/* Box styling for the login form */
+.login-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px; /* Larger font size for labels */
+}
+
+input {
+  width: 80%; /* Adjusted width */
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  font-size: 16px; /* Slightly larger font size for input fields */
+}
+
+button {
+  display:block; /* Change to block to center it */
+  margin: 0 auto; /* Auto margin for centering */
+  width: 40%; /* Adjusted width */
+  max-width: 200px; /* Maximum width to prevent it from becoming too wide */
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size for the button */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth background color transition */
+}
+
+
+/* Change background color on hover */
+button:hover {
+  background-color: #45a049; /* Darken the background on hover */
+}
+
+/* ... (existing styles) */
+
+/* /src/styles/main.css */
+/* Add your main styles here */
+/* ... (existing styles) */
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-links {
+  margin-top: 20px;
+}
+
+.dashboard-links a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dashboard-links a:hover {
+  background-color: #45a049;
+}
+nav ul li.register a {
+  background-color: #4d32e0;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Change background color on hover */
+nav ul li.register a:hover {
+  background-color: #555;
+}
+.health-insights-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.result-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.percentage-container {
+  margin-bottom: 15px;
+}
+
+.percentage-text {
+  margin-bottom: 5px;
+}
+
+.percentage-bar {
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.risk-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.diseases-list {
+  list-style: none;
+  padding: 0;
+}
+
+.diseases-list li {
+  margin-bottom: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
